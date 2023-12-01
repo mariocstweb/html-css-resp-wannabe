@@ -46,8 +46,20 @@
     width: 100%;
   }
 
+  .steps {
+    width: 100%;
+    margin: 0;
+    padding-top: 3rem;
+    padding-bottom: 0;
+  }
+
   .why-us .col {
     width: 100%;
+  }
+
+  .why-us {
+    padding-top: 3rem;
+    background-color: #222222;
   }
 }
 
