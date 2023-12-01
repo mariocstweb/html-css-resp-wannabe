@@ -27,36 +27,34 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    row-gap: 4px;
   }
 
-  .col {
-    margin-bottom: 60px;
+  .row .col {
+    width: 100%;
   }
 
-  .lessons .col {
+  .steps,
+  .lessons,
+  .why-us {
+    margin-bottom: 0;
+  }
+
+  .why-us {
+    padding: 3rem 0;
+    background-color: #222222;
+  }
+}
+
+/* .lessons .col {
     width: 100%;
   }
 
   .steps .col {
     width: 100%;
   }
-
-  .steps {
-    width: 100%;
-    margin: 0;
-    padding-top: 3rem;
-    padding-bottom: 0;
-  }
-
   .why-us .col {
     width: 100%;
-  }
-
-  .why-us {
-    padding-top: 3rem;
-    background-color: #222222;
-    margin: 0;
-  }
-}
+  } */
 
 /* ---------------------------- */
