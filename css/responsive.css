@@ -1,18 +1,13 @@
-/* Responsive 768px */
-
-@media screen and (max-width: 768px) {
-  .container {
-    width: 100%;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
+.container {
+  width: 100%;
+  max-width: 1144px;
 }
 
 /* ---------------------------- */
 
 /* Responsive 576px */
 @media screen and (max-width: 576px) {
-  .header-font {
+  h1 {
     font-size: 3.5rem;
   }
 
@@ -60,7 +55,6 @@
   .why-us {
     padding-top: 3rem;
     background-color: #222222;
-    padding-bottom: 0;
     margin: 0;
   }
 }
